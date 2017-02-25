@@ -43,7 +43,7 @@ namespace dotnetallversion
         static string GetHash(string versionfile)
         {
             var lines = File.ReadAllLines(versionfile);
-            return lines[0].Substring(0,8);
+            return lines[0].Substring(0,10);
         }
 
         static bool IsVersionFilePresent(string versionfile){
