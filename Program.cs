@@ -29,6 +29,7 @@ namespace dotnetallversion
                     string template = $@"Product Information:
  Version:            {version}
  Commit SHA-1 hash:  {hash}
+ Base Path:          {item.FullName}
 ";
                     Console.WriteLine(template);
                 }
